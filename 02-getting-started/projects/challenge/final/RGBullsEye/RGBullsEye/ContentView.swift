@@ -87,7 +87,7 @@ struct ColorCircle: View {
 
 struct ColorSlider: View {
   @Binding var value: Double
-  var trackColor: Color
+  let trackColor: Color
 
   var body: some View {
     HStack {
